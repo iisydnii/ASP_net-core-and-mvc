@@ -158,6 +158,26 @@ namespace MvcMovie.Controllers
             return View(movie);
         }
 
+        //// POST: Movies/Delete/6
+        //[HttpPost]
+        //[ValidateAntiForgeryToken]
+        //public async Task<IActionResult> Delete(int id, bool notUsed)
+        //{
+        // if (notUsed == true)
+        //{
+        //    return NotFound();
+        //}
+        //    var movie = await _context.Movie
+        //        .FirstOrDefaultAsync(m => m.Id == id);
+        //        if (movie == null)
+        //        {
+        //            return NotFound();
+        //}
+
+        //        return View(movie);
+
+        //}
+
         // POST: Movies/Delete/5
         [HttpPost, ActionName("Delete")]
         [ValidateAntiForgeryToken]
